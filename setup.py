@@ -15,14 +15,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
 MODULE_STUB = 'hello_world'
 
 setup(
-    name=MODULE_STUB,  # Substitua pelo nome do seu pacote
+    name="enigma",  # Substitua pelo nome do seu pacote
     version="0.1.0",
-    author="Tiago Tavares",
-    author_email="tiagoft@gmail.com",
-    description="Um pacote minimalista em python",
+    author="João Gabriel Faraco e Caio Liberal",
+    author_email="jgffaraco@gmail.com",
+    description="Um projeto que tenta emitiar a codificação enigma",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tiagoft/hello_world",  # URL do repositório do seu projeto (se houver)
+    url="https://github.com/Caiolib/hello_world",  # URL do repositório do seu projeto (se houver)
     packages=find_packages(),  # Encontra automaticamente todos os pacotes no diretório
     package_data={
     '': find_subdir(f'{MODULE_STUB}/assets'),
@@ -33,10 +33,10 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.11',
+    python_requires='>=3.9.6',
     entry_points={
         'console_scripts': [
-            f'tiago_hello_world={MODULE_STUB}.main:main',
+            'enigma=enigma.main:main',
         ],
     },
     install_requires=[  # Instala as dependências especificadas no requirements.txt
