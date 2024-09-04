@@ -1,5 +1,9 @@
 import numpy as np
+<<<<<<< HEAD
 # from types import Tuple
+=======
+from typing import Tuple
+>>>>>>> 75fd8dc92dca799292410dd384d9b17ea2aea7ac
 
 # def gerar_matrizes_de_permutacao(N : int) -> Tuple[np.ndarray, np.ndarray]:
 #     """
