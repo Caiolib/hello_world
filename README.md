@@ -20,3 +20,6 @@ Após instalar, o programa `tiago_hello_world` deve estar instalado. Então, exe
 seu programa deveria imprimir a string `Hello world!` na tela.
 
 
+Link do video : https://drive.google.com/file/d/1Y49bsNkzl7bZ8nfgzPLe3OIRaAvAavTB/view
+
+
